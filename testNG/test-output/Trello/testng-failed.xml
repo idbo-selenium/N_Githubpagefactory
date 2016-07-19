@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Trello]">
+  <test name="TrelloTest(failed)">
+    <classes>
+      <class name="testNGDependencyTest.Trello_LogOut">
+        <methods>
+          <include name="Profile_Click"/>
+          <include name="LogOut_Click"/>
+        </methods>
+      </class> <!-- testNGDependencyTest.Trello_LogOut -->
+      <class name="testNGDependencyTest.Trello_Login">
+        <methods>
+          <include name="Enter_Username"/>
+          <include name="Enter_Password"/>
+          <include name="WaitMethod"/>
+          <include name="Login_Click"/>
+        </methods>
+      </class> <!-- testNGDependencyTest.Trello_Login -->
+      <class name="testNGDependencyTest.Trello_Navigate">
+        <methods>
+          <include name="Init"/>
+        </methods>
+      </class> <!-- testNGDependencyTest.Trello_Navigate -->
+    </classes>
+  </test> <!-- TrelloTest(failed) -->
+</suite> <!-- Failed suite [Trello] -->

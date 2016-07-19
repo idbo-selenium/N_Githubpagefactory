@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestDependency]">
+  <test name="TestCase1(failed)">
+    <classes>
+      <class name="testNGDependencyTest.DependencySampleClass">
+        <methods>
+          <include name="SignIn"/>
+          <include name="SignUp"/>
+        </methods>
+      </class> <!-- testNGDependencyTest.DependencySampleClass -->
+      <class name="testNGDependencyTest.DependencyClass">
+        <methods>
+          <include name="CleanUp"/>
+          <include name="Init"/>
+        </methods>
+      </class> <!-- testNGDependencyTest.DependencyClass -->
+      <class name="testNGDependencyTest.Dependency_GroupTest">
+        <methods>
+          <include name="Dependency_GroupTestMethod1"/>
+          <include name="Dependency_GroupTestMethod2"/>
+        </methods>
+      </class> <!-- testNGDependencyTest.Dependency_GroupTest -->
+    </classes>
+  </test> <!-- TestCase1(failed) -->
+</suite> <!-- Failed suite [TestDependency] -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Login Tests]">
+  <test name="Test2(failed)">
+    <classes>
+      <class name="testNG_Annotations.Gmail_Login">
+        <methods>
+          <include name="NextButton_Click"/>
+          <include name="CleanUp"/>
+          <include name="CleanUp"/>
+          <include name="Enter_Password"/>
+          <include name="Enter_Username"/>
+          <include name="Navigating_GmailPage"/>
+          <include name="Init"/>
+          <include name="Init"/>
+        </methods>
+      </class> <!-- testNG_Annotations.Gmail_Login -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Login Tests] -->

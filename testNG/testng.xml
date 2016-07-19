@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Tests" >
+  <test name="P1 Test">  
+  
+   
+    <!--  <classes>
+    	<class name="testNG_Annotations.SampleTestNG_Class"></class>
+    	<class name="testNG_Annotations.SampleClass">
+    		<methods>
+    			<exclude name="Test3"></exclude>
+    		</methods>
+    	</class>
+    </classes>-->
+    
+    
+    
+    
+   <!--  <packages>
+    	<package name="testNG_Annotations.*"></package>
+    </packages> -->
+    
+    
+    
+    <groups>
+    	<run>
+    		<include name="p3"></include>
+    	</run>
+    </groups>
+    <classes>
+    	<class name="testNG_Annotations.Gmail_Login"></class>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+</suite> <!-- Suite -->

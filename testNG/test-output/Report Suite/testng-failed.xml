@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Report Suite]">
+  <parameter name="isoCode" value="XDR"/>
+  <parameter name="numCode" value="414"/>
+  <parameter name="multi" value="414,ABD,RAH"/>
+  <test name="Report Test(failed)">
+    <classes>
+      <class name="testNG_Annotations.Scrolling_WebPage">
+        <methods>
+          <include name="GetAttribute"/>
+        </methods>
+      </class> <!-- testNG_Annotations.Scrolling_WebPage -->
+    </classes>
+  </test> <!-- Report Test(failed) -->
+</suite> <!-- Failed suite [Report Suite] -->
